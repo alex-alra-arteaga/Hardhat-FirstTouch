@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Alex A\.node\corepack\yarn\1.22.19\bin\yarn.js add --dev prettier prettier-plugin-solidity
+
+PATH: 
+  C:\Users\Alex A\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Alex A\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\Alex A\AppData\Local\Microsoft\WindowsApps;C:\Users\Alex A\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alex A\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Alex A\hardhat-tutorial\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-tutorial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+      "hardhat": "^2.10.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
